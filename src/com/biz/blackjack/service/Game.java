@@ -56,7 +56,7 @@ public class Game{
 				
 			}else {
 				// 이외의 숫자를 입력하면 다시 입력하라는 문구를 보여주고 다시 입력받기
-				System.out.println("잘못 입력하셨습니다. 다시 입력해주세요");
+				System.out.println("다시 입력해주세요.");
 				continue;
 			}
 		}
