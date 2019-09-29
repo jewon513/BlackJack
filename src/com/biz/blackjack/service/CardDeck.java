@@ -33,7 +33,7 @@ public class CardDeck {
 		buffer.close();
 		fileReader.close();
 		
-		System.out.println("카드파일을 읽고 리스트에 저장하였습니다.");
+		System.out.println("\t\t게임 준비 완료");
 	}
 	
 	// 카드를 드로우

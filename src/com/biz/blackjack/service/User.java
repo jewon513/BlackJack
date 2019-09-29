@@ -23,12 +23,12 @@ public class User {
 	
 	public void viewCardList() {
 		System.out.println("=================================================");
-		System.out.println("User's CardList");
+		System.out.println("User CardList");
 		System.out.println("-------------------------------------------------");
 		for (int i = 0; i < userCardList.size(); i++) {
 			System.out.println(userCardList.get(i));
 		}
-		System.out.println("현재 점수 : " + userScore);
+		System.out.println("\t\t\t\t현재 점수 : " + userScore);
 		System.out.println("=================================================");
 	}
 	
@@ -51,8 +51,6 @@ public class User {
 		}else {
 			userScore+=Integer.valueOf(cardNumber);
 		}
-		System.out.println("=================================================");
-		System.out.println("당신은 "+card +"를 뽑았습니다. 현재 점수 : "+userScore);
 	}
 
 }

@@ -28,7 +28,7 @@ public class Dealer {
 		for (int i = 0; i < dealerCardList.size(); i++) {
 			System.out.println(dealerCardList.get(i));
 		}
-		System.out.println("dealer' score : " + dealerScore);
+		System.out.println("\t\t\t\t딜러 점수 : " + dealerScore);
 		System.out.println("=================================================");
 	}
 	

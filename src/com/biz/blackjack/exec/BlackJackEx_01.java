@@ -2,7 +2,7 @@ package com.biz.blackjack.exec;
 
 import com.biz.blackjack.service.CardDeck;
 import com.biz.blackjack.service.Dealer;
-import com.biz.blackjack.service.Game2;
+import com.biz.blackjack.service.Game;
 import com.biz.blackjack.service.User;
 
 public class BlackJackEx_01 {
@@ -12,7 +12,7 @@ public class BlackJackEx_01 {
 		CardDeck cd = new CardDeck();
 		Dealer dr = new Dealer();
 		User us = new User();
-		Game2 gs = new Game2();
+		Game gs = new Game();
 		
 		try {
 			cd.readFile(); // 카드 파일 읽기
